@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blog | Chi Ki Prana</title>
+    <meta
+      name="description"
+      content="Wellness articles by Elizabeth Borge on yoga, nutrition, Reiki, fitness, and whole-person health."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&family=Lora:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <script>
+      if (sessionStorage.getItem("ckp-seen"))
+        document.documentElement.classList.add("skip-preloader");
+    </script>
+    <div class="preloader">
+      <img src="assets/images/logo.png" alt="Chi Ki Prana lotus" />
+    </div>
+    <nav class="nav" id="nav">
+      <div class="nav-inner">
+        <a class="brand" href="index.html"
+          ><img src="assets/images/IconLogo.png" alt="Chi Ki Prana lotus" /><strong
+            >Chi Ki Prana</strong
+          ></a
+        ><button class="hamb" aria-label="Open menu">☰</button>
+        <div class="nav-panel">
+          <div class="links">
+            <a href="index.html">Home</a
+            ><a href="about.html">About</a
+            ><a href="services.html">Services</a
+            ><a href="blog.html" class="active">Blog</a>
+          </div>
+          <div class="nav-actions">
+            <a class="btn nav-btn nav-btn--soft" href="studio-rental.html"
+              >Studio Rental</a
+            ><a class="btn nav-btn" href="contact.html">Let's Begin</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <a class="btn sticky-cta" href="contact.html">Book a Session</a>
+    <main>
+      <div class="page-head">
+        <div class="container reveal">
+          <div class="eyebrow">Blog</div>
+          <h1>Wellness Insights by Elizabeth</h1>
+          <p>
+            Articles on yoga, nutrition, Reiki, fitness, and whole-person
+            wellness.
+          </p>
+        </div>
+      </div>
+      <section class="section">
+        <div class="container">
+          <div class="filter-bar reveal">
+            <button class="filter-btn active" data-filter="all">All</button
+            ><button class="filter-btn" data-filter="yoga">Yoga</button
+            ><button class="filter-btn" data-filter="nutrition">
+              Nutrition</button
+            ><button class="filter-btn" data-filter="reiki">Reiki</button
+            ><button class="filter-btn" data-filter="fitness">Fitness</button>
+          </div>
+          <div class="grid three">
+            <article class="card article reveal" data-cat="nutrition">
+              <div>
+                <div class="cat">Nutrition</div>
+                <h3>Nutrition for Longevity & Health</h3>
+                <p class="muted">Brainz Magazine</p>
+              </div>
+              <a href="#">Add article link →</a>
+            </article>
+            <article class="card article reveal" data-cat="yoga">
+              <div>
+                <div class="cat">Yoga</div>
+                <h3>Yoga Therapy & Injury Recovery</h3>
+                <p class="muted">Brainz Magazine</p>
+              </div>
+              <a href="#">Add article link →</a>
+            </article>
+            <article class="card article reveal" data-cat="nutrition">
+              <div>
+                <div class="cat">Nutrition</div>
+                <h3>Ayurvedic Nutrition Beginners Guide</h3>
+                <p class="muted">Brainz Magazine</p>
+              </div>
+              <a href="#">Add article link →</a>
+            </article>
+            <article class="card article reveal" data-cat="reiki">
+              <div>
+                <div class="cat">Reiki</div>
+                <h3>Energy, Rest & Recovery</h3>
+                <p class="muted">Future site article</p>
+              </div>
+              <a href="#">Coming soon →</a>
+            </article>
+            <article class="card article reveal" data-cat="fitness">
+              <div>
+                <div class="cat">Fitness</div>
+                <h3>Balance and Strength After 50</h3>
+                <p class="muted">Future site article</p>
+              </div>
+              <a href="#">Coming soon →</a>
+            </article>
+            <article class="card article reveal" data-cat="yoga">
+              <div>
+                <div class="cat">Yoga</div>
+                <h3>Breath, Mobility, and Calm</h3>
+                <p class="muted">Future site article</p>
+              </div>
+              <a href="#">Coming soon →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container foot">
+        <div>
+          <img src="assets/images/logo.png" alt="Chi Ki Prana lotus" />
+        </div>
+        <div>
+          <b>Pages</b>
+          <p>
+            <a href="about.html">About</a><br /            ><a href="services.html"
+              >Services</a
+            ><br /><a href="studio-rental.html">Studio Rental</a><br /><a
+              href="blog.html"
+              >Blog</a
+            ><br /><a href="contact.html"
+              >Contact</a
+            >
+          </p>
+        </div>
+        <div>
+          <b>Services</b>
+          <p>
+            Yoga Therapy<br />Reiki<br />Tai Chi / Private Training<br />Nutrition
+          </p>
+        </div>
+        <div>
+          <b>Location</b>
+          <p>Jenkintown, PA<br />In-Person & Virtual</p>
+        </div>
+      </div>
+      <div class="container bottom">
+        © Elizabeth Borge · elizabethborge.com · Chi Ki Prana
+      </div>
+    </footer>
+  </body>
+</html>
